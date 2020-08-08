@@ -8,11 +8,11 @@
       <th>Launch Date</th>
    </tr>
    <!-- TODO: put <tr *ngFor=""></tr> here -->
-   <tr *ngFor="let member of sourceList">
-   <td> {{member.satellites.name}}</td>
-   <td> {{member.satellites.type}}</td>
-   <td> {{member.satellites.operational}}</td>
-   <td> {{member.satellites.orbitType}}</td>
-   <td> {{member.satellites.launchDate}}</td>
+   <tr *ngFor="let member of satellites">
+   <td> {{member.name}}</td>
+   <td> {{member.type}}</td>
+   <td> {{member.operational}}</td>
+   <td> {{member.orbitType}}</td>
+   <td> {{member.launchDate}}</td>
    </tr>
 </table>
